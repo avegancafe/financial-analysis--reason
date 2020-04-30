@@ -1,0 +1,5 @@
+(executable
+  (name src/server)
+  (public_name financial-analysis)
+  (package re-web)
+  (libraries ReWeb lwt))
