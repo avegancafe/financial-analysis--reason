@@ -1,0 +1,285 @@
+# /Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune-opam__c__2.5.1-cc5ea898/bin/dune exec main
+# OCAMLPARAM: unset
+# Workspace root: /Users/kyle/workspace/financial-analysis
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /tmp/dunecf22ba.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/bin/ocamlfind printconf path > /tmp/dune377343.output
+$ /Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlc.opt -config > /tmp/dune1493ee.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/default"
+#        ; "MANPATH" :
+#            "/Users/kyle/workspace/financial-analysis//Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/kyle/workspace/financial-analysis//Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/kyle/workspace/financial-analysis//Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__reweb-2fcde912/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune-opam__c__2.5.1-cc5ea898/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt-opam__c__5.3.0-5be208d7/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__multipart_form_data-opam__c__0.3.0-5f8d8ce5/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__piaf-1.1.0-39fdfd46/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-f0d66767/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base64-opam__c__3.4.0-1f678c91/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__1.1-042eba37/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__digestif-opam__c__0.8.0-1-d518d25d/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ezgzip-opam__c__0.2.3-66164093/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__magic_mime-opam__c__1.1.2-bf59805f/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__uri-opam__c__3.1.0-67a8ab08/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__websocketaf-2df71620/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-b73f598f/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt_unix-1.2.0-fae8e508/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1-1.2.2-73f357dd/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt_unix-1.2.0-20175bd2/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-1274bfbe/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.5.1-210a9fb7/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-cca599d4/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-53160fa5/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-e6b05011/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__result-opam__c__1.5-773f8f30/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.1-24c4e86d/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-df541ef9/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.6.1-6ea46fdf/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-ca5aee73/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt_unix-0.6.0-369dd853/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__lwt__ssl-1.1.3004-fea6c697/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__fix-opam__c__20200131-ccb41835/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-0418ac1e/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-8d1d2bba/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-cb1080d6/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_bytes-opam__c__base-6056b23a/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/yarn_pkg_config-df6cabe1/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-686ff8cd/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__eqaf-opam__c__0.7-5aec8987/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-8b624812/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__astring-opam__c__0.8.3-97b464b7/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__camlzip-opam__c__1.10-bf89a077/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-92e126a9/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-69e7bfd2/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__angstrom-opam__c__0.14.0-10693122/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday-opam__c__0.7.1-ad43b09f/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__gluten-opam__c__0.2.0-6f6f3129/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__httpaf-2a4e5f00/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-b2bd3bd4/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-092600a9/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_autoconf-opam__c__0.1-cbb5f0ca/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.7.1-42df7117/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten-0.2.0-5960a854/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt-1.2.0-63d39fb5/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt-1.2.0-bd37eb35/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.5.1-dbc1f55c/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__tools__versioned-opam__c__5.4.0-73cf0eb3/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-f67b8039/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-94540521/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt-0.6.0-3aa4f2f0/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__ssl-0.5.9007-304c0f7a/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-a420e7e4/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-1b9624ed/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-1a7a7ba3/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_zlib-opam__c__1-d5bb9136/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/esy_autoconf-ea7b6aaa/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.7.1-43aa646d/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2-0.6.1-cfe339af/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/esy_help2man-19d4fe24/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__hpack-opam__c__0.2.0-eed0559d/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__psq-opam__c__0.2.0-081314f9/lib"
+#      ; External
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.10.0"
+#      ; standard_library_default =
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+#      ; standard_library =
+#          "/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin19.0.0"
+#      ; target = "x86_64-apple-darwin19.0.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X027"
+#      ; cmi_magic_number = "Caml1999I027"
+#      ; cmo_magic_number = "Caml1999O027"
+#      ; cma_magic_number = "Caml1999A027"
+#      ; cmx_magic_number = "Caml1999Y027"
+#      ; cmxa_magic_number = "Caml1999Z027"
+#      ; ast_impl_magic_number = "Caml1999M027"
+#      ; ast_intf_magic_number = "Caml1999N027"
+#      ; cmxs_magic_number = "Caml1999D027"
+#      ; cmt_magic_number = "Caml1999T027"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }

@@ -1,0 +1,707 @@
+# Command environment
+
+#
+# Built-in
+#
+export ESY__ROOT_PACKAGE_CONFIG_PATH="/Users/kyle/workspace/financial-analysis/package.json"
+export CAML_LD_LIBRARY_PATH='/Users/kyle/.opam/default/lib/stublibs:/usr/local/lib/ocaml/stublibs:/usr/local/lib/ocaml'
+export COLORFGBG='15;0'
+export COLORTERM='truecolor'
+export COMMAND_MODE='unix2003'
+export EDITOR='vim'
+export FZF_DEFAULT_COMMAND='ag -g '''''
+export GPG_TTY='/dev/ttys009'
+export HOME='/Users/kyle'
+export ITERM_PROFILE='Hotkey Window'
+export ITERM_SESSION_ID='w0t3p0:0AFB5399-7EAE-4421-836A-56925C21B8C7'
+export LANG='en_US.UTF-8'
+export LC_TERMINAL='iTerm2'
+export LC_TERMINAL_VERSION='3.3.9'
+export LOGNAME='kyle'
+export LSCOLORS='bxfxcxdxbxegedabagacad'
+export LaunchInstanceID='451C5A59-65D9-4B5D-8AC2-BE70FFB3734B'
+export OCAML_TOPLEVEL_PATH='/Users/kyle/.opam/default/lib/toplevel'
+export OPAM_SWITCH_PREFIX='/Users/kyle/.opam/default'
+export PATH='/Users/kyle/.opam/default/bin:/Users/kyle/.rbenv/shims:/Users/kyle/.rbenv/shims:/Users/kyle/.config/yarn/global/node_modules/bin:/Users/kyle/.local/bin:/usr/local/bin:/usr/local/opt/fzf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/postgresql@12/bin'
+export PWD='/Users/kyle/workspace/financial-analysis'
+export RBENV_SHELL='fish'
+export SECURITYSESSIONID='186a6'
+export SHELL='/usr/local/bin/fish'
+export SHLVL='1'
+export SSH_AUTH_SOCK='/private/tmp/com.apple.launchd.d7HKNSEO2a/Listeners'
+export STARSHIP_SHELL='fish'
+export TERM='xterm-256color'
+export TERM_PROGRAM='iTerm.app'
+export TERM_PROGRAM_VERSION='3.3.9'
+export TERM_SESSION_ID='w0t3p0:0AFB5399-7EAE-4421-836A-56925C21B8C7'
+export TMPDIR='/var/folders/2_/yqrm0ztd7tq3wclxpk0mq2100000gp/T/'
+export USER='kyle'
+export USE_PSEUDOLOCALIZATION='false'
+export XPC_FLAGS='0x0'
+export XPC_SERVICE_NAME='0'
+export __CF_USER_TEXT_ENCODING='0x1F6:0x0:0x0'
+export PATH="/Users/kyle/workspace/financial-analysis/_esy/default/bin:$PATH"
+export cur__etc="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/etc"
+export cur__share="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/share"
+export cur__toplevel="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/toplevel"
+export cur__stublibs="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/stublibs"
+export cur__doc="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/doc"
+export cur__man="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/man"
+export cur__lib="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/lib"
+export cur__sbin="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/sbin"
+export cur__bin="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/bin"
+export cur__install="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39"
+export cur__target_dir="/Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39"
+export cur__original_root="/Users/kyle/workspace/financial-analysis"
+export cur__root="/Users/kyle/workspace/financial-analysis"
+export cur__dev="true"
+export cur__version="link-dev:./package.json"
+export cur__name="financial-analysis"
+
+#
+# @opam/psq@opam:0.2.0@247756d4
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__psq-opam__c__0.2.0-081314f9/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__psq-opam__c__0.2.0-081314f9/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__psq-opam__c__0.2.0-081314f9/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__psq-opam__c__0.2.0-081314f9/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__psq-opam__c__0.2.0-081314f9/bin:$PATH"
+
+#
+# @opam/hpack@opam:0.2.0@9f3eae78
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__hpack-opam__c__0.2.0-eed0559d/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__hpack-opam__c__0.2.0-eed0559d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__hpack-opam__c__0.2.0-eed0559d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__hpack-opam__c__0.2.0-eed0559d/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__hpack-opam__c__0.2.0-eed0559d/bin:$PATH"
+
+#
+# esy-help2man@github:esy-packages/esy-help2man#c8e6931d1dcf58a81bd801145a777fd3b115c443@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_help2man-19d4fe24/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/esy_help2man-19d4fe24/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_help2man-19d4fe24/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_help2man-19d4fe24/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_help2man-19d4fe24/bin:$PATH"
+
+#
+# esy-zlib@github:esy-packages/esy-zlib#404929fd8b7ed83ed6a528d751840faff957b4b3@d41d8cd9
+#
+export CFLAGS="-I/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/include $CFLAGS"
+export LDFLAGS="-L/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/lib -lz $LDFLAGS"
+export PKG_CONFIG_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/lib/pkgconfig:$PKG_CONFIG_PATH"
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_zlib-b9f35f3c/bin:$PATH"
+
+#
+# @reason-native-web/h2@0.6.1@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2-0.6.1-cfe339af/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2-0.6.1-cfe339af/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2-0.6.1-cfe339af/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2-0.6.1-cfe339af/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2-0.6.1-cfe339af/bin:$PATH"
+
+#
+# @opam/faraday-lwt@opam:0.7.1@e28c97d1
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.7.1-43aa646d/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.7.1-43aa646d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.7.1-43aa646d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.7.1-43aa646d/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.7.1-43aa646d/bin:$PATH"
+
+#
+# esy-autoconf@github:esy-packages/esy-autoconf#fb93edf@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_autoconf-ea7b6aaa/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/esy_autoconf-ea7b6aaa/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_autoconf-ea7b6aaa/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_autoconf-ea7b6aaa/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_autoconf-ea7b6aaa/bin:$PATH"
+
+#
+# @opam/conf-zlib@opam:1@1ef5c178
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_zlib-opam__c__1-d5bb9136/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_zlib-opam__c__1-d5bb9136/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_zlib-opam__c__1-d5bb9136/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_zlib-opam__c__1-d5bb9136/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_zlib-opam__c__1-d5bb9136/bin:$PATH"
+
+#
+# @opam/conf-m4@opam:1@3b2b148a
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_m4-opam__c__1-45a7fa38/bin:$PATH"
+
+#
+# @opam/ppx_derivers@opam:1.2.1@ecf0aa45
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-1a7a7ba3/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-1a7a7ba3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-1a7a7ba3/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-1a7a7ba3/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-1a7a7ba3/bin:$PATH"
+
+#
+# @opam/menhirSdk@opam:20200211@b2a79ec0
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-1b9624ed/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-1b9624ed/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-1b9624ed/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-1b9624ed/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirsdk-opam__c__20200211-1b9624ed/bin:$PATH"
+
+#
+# @opam/menhirLib@opam:20200211@93d0f001
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-a420e7e4/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-a420e7e4/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-a420e7e4/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-a420e7e4/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhirlib-opam__c__20200211-a420e7e4/bin:$PATH"
+
+#
+# @reason-native-web/ssl@0.5.9007@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__ssl-0.5.9007-304c0f7a/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__ssl-0.5.9007-304c0f7a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__ssl-0.5.9007-304c0f7a/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__ssl-0.5.9007-304c0f7a/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__ssl-0.5.9007-304c0f7a/bin:$PATH"
+
+#
+# @reason-native-web/h2-lwt@0.6.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt-0.6.0-3aa4f2f0/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt-0.6.0-3aa4f2f0/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt-0.6.0-3aa4f2f0/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt-0.6.0-3aa4f2f0/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt-0.6.0-3aa4f2f0/bin:$PATH"
+
+#
+# @opam/topkg@opam:1.0.1@a42c631e
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-94540521/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-94540521/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-94540521/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-94540521/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__topkg-opam__c__1.0.1-94540521/bin:$PATH"
+
+#
+# @opam/ocamlbuild@opam:0.14.0@6ac75d03
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-f67b8039/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-f67b8039/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-f67b8039/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-f67b8039/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-f67b8039/bin:$PATH"
+
+#
+# @opam/ppx_tools_versioned@opam:5.4.0@48c10ee1
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__tools__versioned-opam__c__5.4.0-73cf0eb3/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__tools__versioned-opam__c__5.4.0-73cf0eb3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__tools__versioned-opam__c__5.4.0-73cf0eb3/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__tools__versioned-opam__c__5.4.0-73cf0eb3/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ppx__tools__versioned-opam__c__5.4.0-73cf0eb3/bin:$PATH"
+
+#
+# @opam/dune-private-libs@opam:2.5.1@60c1661f
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.5.1-dbc1f55c/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.5.1-dbc1f55c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.5.1-dbc1f55c/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.5.1-dbc1f55c/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.5.1-dbc1f55c/bin:$PATH"
+
+#
+# @reason-native-web/h1-lwt@1.2.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt-1.2.0-bd37eb35/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt-1.2.0-bd37eb35/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt-1.2.0-bd37eb35/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt-1.2.0-bd37eb35/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt-1.2.0-bd37eb35/bin:$PATH"
+
+#
+# @reason-native-web/gluten-lwt@1.2.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt-1.2.0-63d39fb5/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt-1.2.0-63d39fb5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt-1.2.0-63d39fb5/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt-1.2.0-63d39fb5/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt-1.2.0-63d39fb5/bin:$PATH"
+
+#
+# @reason-native-web/gluten@0.2.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten-0.2.0-5960a854/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten-0.2.0-5960a854/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten-0.2.0-5960a854/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten-0.2.0-5960a854/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten-0.2.0-5960a854/bin:$PATH"
+
+#
+# @opam/faraday-lwt-unix@opam:0.7.1@4854f547
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.7.1-42df7117/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.7.1-42df7117/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.7.1-42df7117/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.7.1-42df7117/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.7.1-42df7117/bin:$PATH"
+
+#
+# @opam/conf-autoconf@opam:0.1@27b3f7cf
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_autoconf-opam__c__0.1-cbb5f0ca/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_autoconf-opam__c__0.1-cbb5f0ca/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_autoconf-opam__c__0.1-cbb5f0ca/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_autoconf-opam__c__0.1-cbb5f0ca/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_autoconf-opam__c__0.1-cbb5f0ca/bin:$PATH"
+
+#
+# @opam/easy-format@opam:1.3.2@0484b3c4
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-092600a9/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-092600a9/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-092600a9/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-092600a9/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-092600a9/bin:$PATH"
+
+#
+# @opam/biniou@opam:1.2.1@d7570399
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-b2bd3bd4/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-b2bd3bd4/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-b2bd3bd4/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-b2bd3bd4/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-b2bd3bd4/bin:$PATH"
+
+#
+# @opam/httpaf@github:anmonteiro/httpaf:httpaf.opam#d7fcccc@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__httpaf-2a4e5f00/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__httpaf-2a4e5f00/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__httpaf-2a4e5f00/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__httpaf-2a4e5f00/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__httpaf-2a4e5f00/bin:$PATH"
+
+#
+# @opam/gluten@opam:0.2.0@f1f8e516
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__gluten-opam__c__0.2.0-6f6f3129/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__gluten-opam__c__0.2.0-6f6f3129/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__gluten-opam__c__0.2.0-6f6f3129/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__gluten-opam__c__0.2.0-6f6f3129/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__gluten-opam__c__0.2.0-6f6f3129/bin:$PATH"
+
+#
+# @opam/faraday@opam:0.7.1@19546ee5
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday-opam__c__0.7.1-ad43b09f/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday-opam__c__0.7.1-ad43b09f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday-opam__c__0.7.1-ad43b09f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday-opam__c__0.7.1-ad43b09f/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__faraday-opam__c__0.7.1-ad43b09f/bin:$PATH"
+
+#
+# @opam/angstrom@opam:0.14.0@7fdfacc4
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__angstrom-opam__c__0.14.0-10693122/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__angstrom-opam__c__0.14.0-10693122/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__angstrom-opam__c__0.14.0-10693122/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__angstrom-opam__c__0.14.0-10693122/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__angstrom-opam__c__0.14.0-10693122/bin:$PATH"
+
+#
+# @opam/re@opam:1.9.0@d4d5e13d
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-69e7bfd2/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-69e7bfd2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-69e7bfd2/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-69e7bfd2/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__re-opam__c__1.9.0-69e7bfd2/bin:$PATH"
+
+#
+# @opam/rresult@opam:0.6.0@4b185e72
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-92e126a9/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-92e126a9/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-92e126a9/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-92e126a9/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__rresult-opam__c__0.6.0-92e126a9/bin:$PATH"
+
+#
+# @opam/camlzip@opam:1.10@552c24df
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__camlzip-opam__c__1.10-bf89a077/lib/zip:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__camlzip-opam__c__1.10-bf89a077/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__camlzip-opam__c__1.10-bf89a077/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__camlzip-opam__c__1.10-bf89a077/bin:$PATH"
+
+#
+# @opam/astring@opam:0.8.3@4e5e17d5
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__astring-opam__c__0.8.3-97b464b7/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__astring-opam__c__0.8.3-97b464b7/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__astring-opam__c__0.8.3-97b464b7/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__astring-opam__c__0.8.3-97b464b7/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__astring-opam__c__0.8.3-97b464b7/bin:$PATH"
+
+#
+# @opam/stdlib-shims@opam:0.1.0@d957c903
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-8b624812/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-8b624812/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-8b624812/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-8b624812/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-8b624812/bin:$PATH"
+
+#
+# @opam/eqaf@opam:0.7@c594a110
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__eqaf-opam__c__0.7-5aec8987/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__eqaf-opam__c__0.7-5aec8987/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__eqaf-opam__c__0.7-5aec8987/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__eqaf-opam__c__0.7-5aec8987/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__eqaf-opam__c__0.7-5aec8987/bin:$PATH"
+
+#
+# @opam/bigarray-compat@opam:1.0.0@1faefa97
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-686ff8cd/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-686ff8cd/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-686ff8cd/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-686ff8cd/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-686ff8cd/bin:$PATH"
+
+#
+# yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9
+#
+export PATH=":$PATH"
+export PKG_CONFIG_PATH="/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/share/pkgconfig:/usr/local/share/pkgconfig:$cur__lib:$PKG_CONFIG_PATH"
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/yarn_pkg_config-df6cabe1/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/yarn_pkg_config-df6cabe1/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/yarn_pkg_config-df6cabe1/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/yarn_pkg_config-df6cabe1/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/yarn_pkg_config-df6cabe1/bin:$PATH"
+
+#
+# @opam/base-bytes@opam:base@19d0c2ff
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_bytes-opam__c__base-6056b23a/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_bytes-opam__c__base-6056b23a/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_bytes-opam__c__base-6056b23a/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_bytes-opam__c__base-6056b23a/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_bytes-opam__c__base-6056b23a/bin:$PATH"
+
+#
+# @opam/ocamlfind@opam:1.8.1@ff07b0f9
+#
+export OCAML_TOPLEVEL_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/toplevel"
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-eb1b497b/bin:$PATH"
+
+#
+# @opam/ocaml-migrate-parsetree@opam:1.7.2@bc8b618e
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-cb1080d6/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-cb1080d6/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-cb1080d6/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-cb1080d6/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.7.2-cb1080d6/bin:$PATH"
+
+#
+# @opam/merlin-extend@opam:0.5@a5dd7d4b
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-8d1d2bba/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-8d1d2bba/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-8d1d2bba/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-8d1d2bba/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.5-8d1d2bba/bin:$PATH"
+
+#
+# @opam/menhir@opam:20200211@26571604
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-0418ac1e/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-0418ac1e/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-0418ac1e/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-0418ac1e/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__menhir-opam__c__20200211-0418ac1e/bin:$PATH"
+
+#
+# @opam/fix@opam:20200131@0ecd2f01
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__fix-opam__c__20200131-ccb41835/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__fix-opam__c__20200131-ccb41835/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__fix-opam__c__20200131-ccb41835/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__fix-opam__c__20200131-ccb41835/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__fix-opam__c__20200131-ccb41835/bin:$PATH"
+
+#
+# @reason-native-web/lwt_ssl@1.1.3004@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__lwt__ssl-1.1.3004-fea6c697/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__lwt__ssl-1.1.3004-fea6c697/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__lwt__ssl-1.1.3004-fea6c697/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__lwt__ssl-1.1.3004-fea6c697/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__lwt__ssl-1.1.3004-fea6c697/bin:$PATH"
+
+#
+# @reason-native-web/h2-lwt-unix@0.6.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt_unix-0.6.0-369dd853/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt_unix-0.6.0-369dd853/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt_unix-0.6.0-369dd853/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt_unix-0.6.0-369dd853/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h2_lwt_unix-0.6.0-369dd853/bin:$PATH"
+
+#
+# @opam/logs@opam:0.7.0@1d03143e
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-ca5aee73/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-ca5aee73/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-ca5aee73/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-ca5aee73/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-ca5aee73/bin:$PATH"
+
+#
+# @opam/bigstringaf@opam:0.6.1@35f5e6d1
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.6.1-6ea46fdf/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.6.1-6ea46fdf/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.6.1-6ea46fdf/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.6.1-6ea46fdf/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.6.1-6ea46fdf/bin:$PATH"
+
+#
+# @opam/stringext@opam:1.6.0@104bc94b
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-df541ef9/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-df541ef9/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-df541ef9/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-df541ef9/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-df541ef9/bin:$PATH"
+
+#
+# @opam/lwt_ppx@opam:2.0.1@ab0debb8
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.1-24c4e86d/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.1-24c4e86d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.1-24c4e86d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.1-24c4e86d/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.1-24c4e86d/bin:$PATH"
+
+#
+# @opam/seq@opam:base@d8d7de1d
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__seq-opam__c__base-4220c996/bin:$PATH"
+
+#
+# @opam/result@opam:1.5@6b753c82
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__result-opam__c__1.5-773f8f30/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__result-opam__c__1.5-773f8f30/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__result-opam__c__1.5-773f8f30/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__result-opam__c__1.5-773f8f30/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__result-opam__c__1.5-773f8f30/bin:$PATH"
+
+#
+# @opam/ocplib-endian@opam:1.1@84c1ca88
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-e6b05011/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-e6b05011/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-e6b05011/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-e6b05011/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-e6b05011/bin:$PATH"
+
+#
+# @opam/ocaml-syntax-shims@opam:1.0.0@a9aa3bfa
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-53160fa5/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-53160fa5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-53160fa5/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-53160fa5/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-53160fa5/bin:$PATH"
+
+#
+# @opam/mmap@opam:1.1.0@b85334ff
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-cca599d4/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-cca599d4/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-cca599d4/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-cca599d4/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-cca599d4/bin:$PATH"
+
+#
+# @opam/dune-configurator@opam:2.5.1@aeb9d8d5
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.5.1-210a9fb7/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.5.1-210a9fb7/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.5.1-210a9fb7/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.5.1-210a9fb7/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.5.1-210a9fb7/bin:$PATH"
+
+#
+# @opam/cppo@opam:1.6.6@f4f83858
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-1274bfbe/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-1274bfbe/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-1274bfbe/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-1274bfbe/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__cppo-opam__c__1.6.6-1274bfbe/bin:$PATH"
+
+#
+# ocaml@4.10.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml:$CAML_LD_LIBRARY_PATH"
+export OCAMLLIB="/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+export OCAML_TOPLEVEL_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib/ocaml"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/ocaml-4.10.0-f28f0ffe/bin:$PATH"
+
+#
+# @opam/base-unix@opam:base@87d0b2eb
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/bin:$PATH"
+
+#
+# @opam/base-threads@opam:base@36803084
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/bin:$PATH"
+
+#
+# @esy-ocaml/substs@0.0.1@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/bin:$PATH"
+
+#
+# @reason-native-web/h1-lwt-unix@1.2.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt_unix-1.2.0-20175bd2/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt_unix-1.2.0-20175bd2/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt_unix-1.2.0-20175bd2/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt_unix-1.2.0-20175bd2/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1_lwt_unix-1.2.0-20175bd2/bin:$PATH"
+
+#
+# @reason-native-web/h1@1.2.2@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1-1.2.2-73f357dd/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1-1.2.2-73f357dd/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1-1.2.2-73f357dd/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1-1.2.2-73f357dd/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__h1-1.2.2-73f357dd/bin:$PATH"
+
+#
+# @reason-native-web/gluten-lwt-unix@1.2.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt_unix-1.2.0-fae8e508/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt_unix-1.2.0-fae8e508/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt_unix-1.2.0-fae8e508/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt_unix-1.2.0-fae8e508/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__gluten_lwt_unix-1.2.0-fae8e508/bin:$PATH"
+
+#
+# @reason-native-web/esy-openssl@1.1.1006@d41d8cd9
+#
+export LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/lib:$LD_LIBRARY_PATH"
+export OPENSSL_BIN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/bin"
+export OPENSSL_INCLUDE_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/include"
+export OPENSSL_LIB_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/lib"
+export PKG_CONFIG_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/lib/pkgconfig"
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__esy_openssl-1.1.1006-c9a0b3b3/bin:$PATH"
+
+#
+# @opam/yojson@opam:1.7.0@7056d985
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-b73f598f/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-b73f598f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-b73f598f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-b73f598f/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-b73f598f/bin:$PATH"
+
+#
+# @opam/websocketaf@github:anmonteiro/websocketaf:websocketaf.opam#c002201@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__websocketaf-2df71620/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__websocketaf-2df71620/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__websocketaf-2df71620/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__websocketaf-2df71620/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__websocketaf-2df71620/bin:$PATH"
+
+#
+# @opam/uri@opam:3.1.0@d38ac0ae
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__uri-opam__c__3.1.0-67a8ab08/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__uri-opam__c__3.1.0-67a8ab08/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__uri-opam__c__3.1.0-67a8ab08/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__uri-opam__c__3.1.0-67a8ab08/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__uri-opam__c__3.1.0-67a8ab08/bin:$PATH"
+
+#
+# @opam/magic-mime@opam:1.1.2@980f82fb
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__magic_mime-opam__c__1.1.2-bf59805f/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__magic_mime-opam__c__1.1.2-bf59805f/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__magic_mime-opam__c__1.1.2-bf59805f/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__magic_mime-opam__c__1.1.2-bf59805f/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__magic_mime-opam__c__1.1.2-bf59805f/bin:$PATH"
+
+#
+# @opam/ezgzip@opam:0.2.3@08ae0839
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ezgzip-opam__c__0.2.3-66164093/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ezgzip-opam__c__0.2.3-66164093/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ezgzip-opam__c__0.2.3-66164093/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ezgzip-opam__c__0.2.3-66164093/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__ezgzip-opam__c__0.2.3-66164093/bin:$PATH"
+
+#
+# @opam/digestif@opam:0.8.0-1@063c8a05
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__digestif-opam__c__0.8.0-1-d518d25d/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__digestif-opam__c__0.8.0-1-d518d25d/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__digestif-opam__c__0.8.0-1-d518d25d/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__digestif-opam__c__0.8.0-1-d518d25d/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__digestif-opam__c__0.8.0-1-d518d25d/bin:$PATH"
+
+#
+# @opam/conf-pkg-config@opam:1.1@ff4322c1
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__1.1-042eba37/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__1.1-042eba37/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__1.1-042eba37/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__1.1-042eba37/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__1.1-042eba37/bin:$PATH"
+
+#
+# @opam/base64@opam:3.4.0@f5b9ad9b
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base64-opam__c__3.4.0-1f678c91/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base64-opam__c__3.4.0-1f678c91/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base64-opam__c__3.4.0-1f678c91/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base64-opam__c__3.4.0-1f678c91/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__base64-opam__c__3.4.0-1f678c91/bin:$PATH"
+
+#
+# @esy-ocaml/reason@3.6.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-f0d66767/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-f0d66767/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-f0d66767/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-f0d66767/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/esy_ocaml__s__reason-3.6.0-f0d66767/bin:$PATH"
+
+#
+# @reason-native-web/piaf@1.1.0@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__piaf-1.1.0-39fdfd46/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__piaf-1.1.0-39fdfd46/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__piaf-1.1.0-39fdfd46/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__piaf-1.1.0-39fdfd46/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/reason_native_web__s__piaf-1.1.0-39fdfd46/bin:$PATH"
+
+#
+# @opam/multipart-form-data@opam:0.3.0@375eb487
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__multipart_form_data-opam__c__0.3.0-5f8d8ce5/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__multipart_form_data-opam__c__0.3.0-5f8d8ce5/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__multipart_form_data-opam__c__0.3.0-5f8d8ce5/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__multipart_form_data-opam__c__0.3.0-5f8d8ce5/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__multipart_form_data-opam__c__0.3.0-5f8d8ce5/bin:$PATH"
+
+#
+# @opam/lwt@opam:5.3.0@6519bffc
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt-opam__c__5.3.0-5be208d7/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt-opam__c__5.3.0-5be208d7/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt-opam__c__5.3.0-5be208d7/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt-opam__c__5.3.0-5be208d7/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__lwt-opam__c__5.3.0-5be208d7/bin:$PATH"
+
+#
+# @opam/dune@opam:2.5.1@a0c1e658
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune-opam__c__2.5.1-cc5ea898/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune-opam__c__2.5.1-cc5ea898/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune-opam__c__2.5.1-cc5ea898/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune-opam__c__2.5.1-cc5ea898/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__dune-opam__c__2.5.1-cc5ea898/bin:$PATH"
+
+#
+# @opam/ReWeb@github:yawaramin/re-web:package.json#0bab7c2@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__reweb-2fcde912/stublibs:/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__reweb-2fcde912/lib/stublibs:$CAML_LD_LIBRARY_PATH"
+export OCAMLPATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__reweb-2fcde912/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__reweb-2fcde912/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3____________________________________________________________________/i/opam__s__reweb-2fcde912/bin:$PATH"
+
+#
+# Built-in
+#
+export OCAMLFIND_LDCONF="ignore"
+export OCAMLFIND_DESTDIR="/Users/kyle/workspace/financial-analysis/_esy/default/store/i/financial_analysis-e6d28b39/lib"
+export DUNE_BUILD_DIR="/Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39"
+export DUNE_STORE_ORIG_SOURCE_DIR="true"
+export SHELL="env -i /bin/bash --norc --noprofile"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export SHELL="/usr/local/bin/fish"

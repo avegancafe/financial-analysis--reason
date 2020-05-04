@@ -1,0 +1,8 @@
+lib: [
+  "/Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/install/default/lib/financial-analysis/META"
+  "/Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/install/default/lib/financial-analysis/dune-package"
+  "/Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/install/default/lib/financial-analysis/opam"
+]
+bin: [
+  "/Users/kyle/workspace/financial-analysis/_esy/default/store/b/financial_analysis-e6d28b39/install/default/bin/financial-analysis"
+]
